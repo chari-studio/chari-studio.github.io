@@ -154,8 +154,9 @@ h1 .button-5 { font-weight: 500; }
 .lightbox .lb-next { right: 20px; }
 
 /* ---- Home ---- */
-body.home { background: #4a4a4a; color: #fff; }
+body.home { background: #000; color: #fff; }
 #backdrop { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 0; display: block; }
+#bgvideo { position: fixed; inset: 0; width: 100vw; height: 100vh; z-index: 0; display: block; object-fit: cover; max-width: none; background: #000; }
 .home .page { position: relative; z-index: 1; padding-top: 1.8rem; }
 .home .wordmark { font-weight: 700; font-size: 3.4rem; line-height: 1; letter-spacing: -0.01em; }
 .home .nav-small { font-size: 0.87rem; margin-top: 4.5rem; line-height: 1.4; }
